@@ -73,7 +73,7 @@ The PORNGRAPHIC probability is: 100.000%
 
 MOsaic Model contains 2 CNN layers and 2 FC layers:
 
-- input: [3,32,32]
+- Input: [3,32,32]
 - CNN layer1: [64,3,3]
 - CNN layer2: [64,3,3]
 - FC layer1: 128
