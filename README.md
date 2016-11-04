@@ -80,7 +80,7 @@ MOsaic Model contains 2 CNN layers and 2 FC layers:
 - FC layer2: 128
 - Output: 1
 
-The accuracy in test datasets is 95%.
+The accuracy in test datasets is up to 95%.
 
 
 
