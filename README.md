@@ -71,14 +71,14 @@ The PORNGRAPHIC probability is: 100.000%
 
 ## Models:
 
-MOsaic Model contains 2 CNN layers and 2 FC layers:
+Mosaic Model contains 2 CNN layers and 3 FC layers:
 
 - Input: [3,32,32]
 - CNN layer1: [64,3,3]
 - CNN layer2: [64,3,3]
 - FC layer1: 128
 - FC layer2: 128
-- Output: 1
+- Output FC layer3: 1
 
 The accuracy in test datasets is up to 95%.
 
