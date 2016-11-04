@@ -38,6 +38,8 @@ Download the project and run command:
 python mosaic_porngraphic_cnn_demo.py the_path_of_image
 
 ```
+the_path_of_image is the input image to be detected.
+
 
 Output is The PORNGRAPHIC probability.
 
