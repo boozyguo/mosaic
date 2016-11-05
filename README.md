@@ -80,7 +80,7 @@ Mosaic Model contains 2 CNN layers and 3 FC layers:
 - FC layer2: 128
 - Output FC layer3: 1
 
-The accuracy in test datasets is up to 95%.
+The accuracy in test datasets is up to 96%.
 
 
 
