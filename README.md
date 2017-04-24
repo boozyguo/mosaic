@@ -4,7 +4,7 @@
 
 ## You have just found Mosaic Models.
 
-Mosaic is a high-level neural networks model, written in Python and capable of running on top of [keras](https://github.com/fchollet/keras). 
+Mosaic is a high-level neural networks model, written in Python and capable of running on top of [keras](https://github.com/fchollet/keras) with [Tensorflow](https://github.com/tensorflow/tensorflow) backend . 
 
 Now, It was developed with a focus on porngraphic detection. 
 
@@ -14,7 +14,7 @@ Use Mosaic Models if you need a deep learning Model that:
 - Design and Fine-tune yourself Network (Mosaic-based).
 - Runs seamlessly on CPU and GPU.
 
-Mosaic is compatible with: __Keras 1.1.1__ and __Python 2.7__.
+Mosaic is compatible with: __Keras 2.0.3__   __Tensorflow 1.1.0__ and __Python 2.7__.
 
 
 ------------------
@@ -32,7 +32,7 @@ Mosaic is compatible with: __Keras 1.1.1__ and __Python 2.7__.
 
 ## Usage:
 
-Download the project and run command:
+Download the project and run command(Please download weights file from http://pan.baidu.com/s/1jH8lBee to ./model.):
 
 ```python
 python mosaic_porngraphic_cnn_demo.py the_path_of_image
@@ -55,8 +55,7 @@ Output:
 ```python
 Mosaic: detect porngraghic
 =====================================
-loading CNN model..........
-load OK!
+
 loading weights..........
 load OK!
 
@@ -66,19 +65,23 @@ Input image is: ./data/test/6.jpg
 The PORNGRAPHIC probability is: 100.000% 
 ```
 
+Also, the model gives JSON Output:
+```
+following are return values:
+{"results_output": {"porngraphic": "0.274794"}, "image_file_output": "null", "results_file_output": "null"}
+```
 ------------------
 
 
 ## Models:
 
-Mosaic Model contains 2 CNN layers and 3 FC layers:
+Mosaic Model based on Xception in keras:
 
-- Input: [3,32,32]
-- CNN layer1: [64,3,3]
-- CNN layer2: [64,3,3]
-- FC layer1: 128
-- FC layer2: 128
-- Output FC layer3: 1
+- Input: [100,100,3]
+- Entry Flow: [5,5,728]
+- Middle Flow(repeated 8 times): [5,5,728]
+- Exit Flow: [3,3,2048]
+- Output FC: 1
 
 The accuracy in test datasets is up to 96%.
 
