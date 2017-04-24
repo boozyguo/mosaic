@@ -1,4 +1,4 @@
 
-Mosaic Net: mosaic_porngraphic_cnn_architecture_release.json
+Mosaic Net: Xception
 
-the Weights: mosaic_porngraphic_cnn.release.hdf5
+the Weights: 0.13-loss_14epoch_100x100_aug_0.001lr_run0_Xception_100_1493005360.96time.h5
