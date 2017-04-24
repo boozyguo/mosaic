@@ -47,7 +47,7 @@ Output is The PORNGRAPHIC probability.
 
 Run:
 ```python
-python mosaic_porngraphic_cnn_demo.py ./data/test/6.jpg
+python mosaic_porngraphic_cnn_demo.py ./data/test/22.jpg
 
 ```
 
@@ -61,14 +61,14 @@ load OK!
 
 Try to Predict input images:
 =====================================
-Input image is: ./data/test/6.jpg
-The PORNGRAPHIC probability is: 100.000% 
+Input image is: ./data/test/22.jpg
+The PORNGRAPHIC probability is: 0.026% 
 ```
 
 Also, the model gives JSON Output:
 ```
 following are return values:
-{"results_output": {"porngraphic": "0.274794"}, "image_file_output": "null", "results_file_output": "null"}
+{"results_output": {"porngraphic": "0.000258009"}, "image_file_output": "null", "results_file_output": "null"}
 ```
 ------------------
 
