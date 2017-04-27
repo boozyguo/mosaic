@@ -32,7 +32,7 @@ Mosaic is compatible with: __Keras 2.0.3__   __Tensorflow 1.1.0__ and __Python 2
 
 ## Usage:
 
-Download the project and run command(Please download weights file from http://pan.baidu.com/s/1jH8lBee to ./model.):
+Download the project and run command(Please download weights file from http://pan.baidu.com/s/1i4POGXB to ./model.):
 
 ```python
 python mosaic_porngraphic_cnn_demo.py the_path_of_image
@@ -77,7 +77,7 @@ following are return values:
 
 Mosaic Model based on Xception in keras:
 
-- Input: [100,100,3]
+- Input: [128,128,3]
 - Entry Flow: [5,5,728]
 - Middle Flow(repeated 8 times): [5,5,728]
 - Exit Flow: [3,3,2048]
