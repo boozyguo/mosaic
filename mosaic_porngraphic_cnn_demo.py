@@ -6,7 +6,7 @@ Output: The PORNGRAPHIC probability
 
 Author: boozyguo
 mail: 44167841@qq.com
-update: 2017-04-24
+update: 2017-04-27
 
 changlist:
 2016-11-04: first version, using 2 CNN layers and 3 FC layers
