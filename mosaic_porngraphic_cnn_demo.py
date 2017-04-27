@@ -11,7 +11,7 @@ update: 2017-04-24
 changlist:
 2016-11-04: first version, using 2 CNN layers and 3 FC layers
 2017-04-24: second version, using Xception
-
+2017-04-27: second version, change input size to 128
 '''
 
 # model reconstruction from JSON:
@@ -41,7 +41,7 @@ input_image_path = args.input_image_path
 
 
 # input image dimensions
-img_rows, img_cols = 100, 100
+img_rows, img_cols = 128, 128
 img_channels = 3
 n_classes = 1
 
@@ -58,8 +58,8 @@ model.compile(loss='binary_crossentropy',
 
 
 # load weights
-if os.path.exists('./model/0.13-loss_14epoch_100x100_aug_0.001lr_run0_Xception_100_1493005360.96time.h5'):
-    model.load_weights('./model/0.13-loss_14epoch_100x100_aug_0.001lr_run0_Xception_100_1493005360.96time.h5')
+if os.path.exists('./model/0.12-loss_18epoch_128x128_aug_0.001lr_run0_Xception_128_1493071505.11time'):
+    model.load_weights('./model/0.12-loss_18epoch_128x128_aug_0.001lr_run0_Xception_128_1493071505.11time')
     print ('loading weights..........')
     print ('load OK!')
 else:
