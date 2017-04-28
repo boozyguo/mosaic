@@ -58,8 +58,8 @@ model.compile(loss='binary_crossentropy',
 
 
 # load weights
-if os.path.exists('./model/0.12-loss_18epoch_128x128_aug_0.001lr_run0_Xception_128_1493071505.11time'):
-    model.load_weights('./model/0.12-loss_18epoch_128x128_aug_0.001lr_run0_Xception_128_1493071505.11time')
+if os.path.exists('./model/0.12-loss_18epoch_128x128_aug_0.001lr_run0_Xception_128_1493071505.11time.h5'):
+    model.load_weights('./model/0.12-loss_18epoch_128x128_aug_0.001lr_run0_Xception_128_1493071505.11time.h5')
     print ('loading weights..........')
     print ('load OK!')
 else:
