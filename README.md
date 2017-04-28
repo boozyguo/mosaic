@@ -62,13 +62,13 @@ load OK!
 Try to Predict input images:
 =====================================
 Input image is: ./data/test/22.jpg
-The PORNGRAPHIC probability is: 0.026% 
+The PORNGRAPHIC probability is: 0.000% 
 ```
 
 Also, the model gives JSON Output:
 ```
 following are return values:
-{"results_output": {"porngraphic": "0.000258009"}, "image_file_output": "null", "results_file_output": "null"}
+{"results_output": {"porngraphic": "2.15399e-08"}, "image_file_output": "null", "results_file_output": "null"}
 ```
 ------------------
 
