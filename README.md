@@ -78,9 +78,9 @@ following are return values:
 Mosaic Model based on Xception in keras:
 
 - Input: [128,128,3]
-- Entry Flow: [5,5,728]
-- Middle Flow(repeated 8 times): [5,5,728]
-- Exit Flow: [3,3,2048]
+- Entry Flow: [8,8,728]
+- Middle Flow(repeated 8 times): [8,8,728]
+- Exit Flow: [4,4,2048]
 - Output FC: 1
 
 The accuracy in test datasets is up to 96%.
