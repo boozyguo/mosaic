@@ -30,7 +30,7 @@ Mosaic is compatible with: __Keras 2.0.3__   __Tensorflow 1.1.0__ and __Python 2
 ------------------
 
 
-## Usage:
+## Inference Usage:
 
 Download the project and run command(Please download weights file from http://pan.baidu.com/s/1i4POGXB to ./model.):
 
@@ -42,6 +42,24 @@ the_path_of_image is the input image to be detected.
 
 
 Output is The PORNGRAPHIC probability.
+
+
+## Training Usage:
+
+Prepare training and validtaion images at first:
+
+```python
+python mosaic_porngraphic_cnn_train.py the_path_of_training_image the_path_of_validation_image 
+
+```
+the_path_of_training_image is the full path of training image, which should be include two class sub-directories.
+the_path_of_validation_image is the full path of validation image, which should be include two class sub-directories.
+
+
+The best model and last model will be saved.
+
+
+------------------
 
 ## Example:
 
