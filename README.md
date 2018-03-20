@@ -113,7 +113,7 @@ If the project could help you, please star it and give us some donations. Donati
 
 
 Wechat Payment
-![WeChat Payment](https://github.com/yongxuUSTC/deep_learning_based_speech_enhancement_keras_python/blob/master/mixture2clean_dnn/appendix/enhanced_log_sp.png)
+![WeChat Payment](https://raw.githubusercontent.com/boozyguo/mosaic/master/wechat.jpg)
 
 
 
