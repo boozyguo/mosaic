@@ -109,10 +109,10 @@ The accuracy in test datasets is up to 96%.
 
 ## Donate:
 
-If the project could help you, please give us some donations. Donations will be used to fund expenses related to development (e.g. to cover equipment and server maintenance costs), to sponsor bug fixing, feature development.
+If the project could help you, please star it and give us some donations. Donations will be used to fund expenses related to development (e.g. to cover equipment and server maintenance costs), to sponsor bug fixing, feature development.
 
 
-![alt text](https://github.com/yongxuUSTC/deep_learning_based_speech_enhancement_keras_python/blob/master/mixture2clean_dnn/appendix/enhanced_log_sp.png)
+![WeChat Payment](https://github.com/yongxuUSTC/deep_learning_based_speech_enhancement_keras_python/blob/master/mixture2clean_dnn/appendix/enhanced_log_sp.png)
 
 
 
