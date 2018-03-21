@@ -115,6 +115,8 @@ If the project could help you, please star it and give us some donations. Donati
 Wechat Payment
 ![WeChat Payment](https://github.com/boozyguo/mosaic/blob/master/notes/wechat.jpg)
 
+[Paypal Payment](http://paypal.me/githubClearWave)
+[![Paypal Payment](https://github.com/boozyguo/mosaic/blob/master/notes/paypal.jpg)](http://paypal.me/githubClearWave)
 
 
 
